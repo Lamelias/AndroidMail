@@ -1,0 +1,247 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (C) 2008 The Android Open Source Project
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.android.exchange"
+19    android:versionCode="500065" >
+20
+21    <uses-sdk
+22        android:minSdkVersion="16"
+22-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml
+23        android:targetSdkVersion="29" />
+23-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml
+24
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:22:5-23:67
+25-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:23:9-65
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:24:5-25:65
+26-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:25:9-63
+27    <uses-permission android:name="android.permission.INTERNET" />
+27-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:26:5-27:53
+27-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:27:9-51
+28    <uses-permission android:name="android.permission.VIBRATE" />
+28-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:28:5-29:52
+28-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:29:9-50
+29    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+29-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:30:5-31:68
+29-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:31:9-65
+30    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+30-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:32:5-33:58
+30-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:33:9-55
+31    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+31-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:34:5-35:61
+31-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:35:9-58
+32    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+32-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:36:5-37:67
+32-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:37:9-64
+33    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+33-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:38:5-39:64
+33-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:39:9-61
+34    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+34-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:40:5-41:65
+34-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:41:9-62
+35    <uses-permission android:name="android.permission.READ_CONTACTS" />
+35-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:43:5-44:58
+35-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:44:9-56
+36    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+36-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:45:5-46:59
+36-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:46:9-57
+37    <uses-permission android:name="android.permission.READ_CALENDAR" />
+37-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:47:5-48:58
+37-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:48:9-56
+38    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+38-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:49:5-50:59
+38-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:50:9-57
+39    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+39-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:51:5-52:60
+39-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:52:9-58
+40
+41    <!-- Only required if a store implements push mail and needs to keep network open -->
+42    <uses-permission android:name="android.permission.WAKE_LOCK" />
+42-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:55:5-56:54
+42-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:56:9-52
+43    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+43-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:57:5-58:61
+43-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:58:9-59
+44    <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT" />
+44-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:60:5-61:70
+44-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:61:9-68
+45    <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER" />
+45-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:62:5-63:70
+45-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:63:9-68
+46    <!-- additional uses -->
+47    <application
+47-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:67:5-153:19
+48        android:name="com.android.exchange.Exchange"
+48-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:70:9-32
+49        android:icon="@mipmap/icon"
+49-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:68:9-36
+50        android:label="@string/app_name"
+50-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:69:9-41
+51        android:requiredAccountType="com.android.exchange"
+51-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:71:9-59
+52        android:theme="@android:style/Theme.Holo.Light" >
+52-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:72:9-56
+53        <service
+53-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:75:9-83:19
+54            android:name="com.android.exchange.service.EasService"
+54-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:76:17-71
+55            android:exported="true" >
+55-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:77:17-40
+56            <intent-filter>
+56-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:78:13-81:29
+57                <action android:name="com.android.email.EXCHANGE_INTENT" />
+57-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:79:17-80:76
+57-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:80:25-73
+58            </intent-filter>
+59        </service>
+60
+61        <!-- Required stanza to register the EAS EmailSyncAdapterService with SyncManager -->
+62        <service
+62-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:86:9-95:19
+63            android:name="com.android.exchange.service.EmailSyncAdapterService"
+63-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:87:13-80
+64            android:exported="true" >
+64-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:88:13-36
+65            <intent-filter>
+65-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:89:13-92:29
+66                <action android:name="android.content.SyncAdapter" />
+66-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:90:17-91:66
+66-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:91:21-63
+67            </intent-filter>
+68
+69            <meta-data
+69-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:93:13-94:68
+70                android:name="android.content.SyncAdapter"
+70-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:93:24-66
+71                android:resource="@xml/syncadapter_email" />
+71-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:94:24-65
+72        </service>
+73
+74        <!-- Required stanza to register the EAS ContactsSyncAdapterService with SyncManager -->
+75        <service
+75-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:98:9-107:19
+76            android:name="com.android.exchange.service.ContactsSyncAdapterService"
+76-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:99:13-83
+77            android:exported="true" >
+77-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:100:13-36
+78            <intent-filter>
+78-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:89:13-92:29
+79                <action android:name="android.content.SyncAdapter" />
+79-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:90:17-91:66
+79-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:91:21-63
+80            </intent-filter>
+81
+82            <meta-data
+82-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:93:13-94:68
+83                android:name="android.content.SyncAdapter"
+83-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:93:24-66
+84                android:resource="@xml/syncadapter_contacts" />
+84-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:94:24-65
+85        </service>
+86
+87        <!-- Required stanza to register the EAS CalendarSyncAdapterService with SyncManager -->
+88        <service
+88-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:110:9-119:19
+89            android:name="com.android.exchange.service.CalendarSyncAdapterService"
+89-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:111:13-83
+90            android:exported="true" >
+90-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:112:13-36
+91            <intent-filter>
+91-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:89:13-92:29
+92                <action android:name="android.content.SyncAdapter" />
+92-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:90:17-91:66
+92-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:91:21-63
+93            </intent-filter>
+94
+95            <meta-data
+95-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:93:13-94:68
+96                android:name="android.content.SyncAdapter"
+96-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:93:24-66
+97                android:resource="@xml/syncadapter_calendar" />
+97-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:94:24-65
+98        </service>
+99
+100        <provider
+100-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:121:9-131:20
+101            android:name="com.android.exchange.provider.ExchangeDirectoryProvider"
+101-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:122:13-83
+102            android:authorities="com.android.exchange.directory.provider"
+102-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:123:13-74
+103            android:exported="true"
+103-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:126:13-36
+104            android:multiprocess="false"
+104-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:125:13-41
+105            android:readPermission="android.permission.READ_CONTACTS" >
+105-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:124:13-70
+106            <meta-data
+106-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:128:11-130:37
+107                android:name="android.content.ContactDirectory"
+107-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:129:15-62
+108                android:value="true" />
+108-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:130:15-35
+109        </provider>
+110
+111        <activity android:name="com.android.exchange.EasCertificateRequestor" >
+111-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:133:9-139:20
+111-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:133:19-58
+112            <intent-filter>
+112-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:134:13-138:29
+113                <action android:name="com.android.email.EXCHANGE_REQUEST_CERT" />
+113-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:135:17-82
+113-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:135:25-79
+114
+115                <data
+115-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:136:17-74
+116                    android:path="/certrequest"
+116-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:136:44-71
+117                    android:scheme="eas" />
+117-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:136:23-43
+118
+119                <category android:name="android.intent.category.DEFAULT" />
+119-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:137:17-76
+119-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:137:27-73
+120            </intent-filter>
+121        </activity>
+122        <activity android:name="com.android.exchange.SettingsRedirector" >
+122-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:140:9-145:20
+122-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:140:19-53
+123            <intent-filter>
+123-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:141:13-144:29
+124                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE" />
+124-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:142:17-85
+124-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:142:25-82
+125
+126                <category android:name="android.intent.category.DEFAULT" />
+126-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:137:17-76
+126-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:137:27-73
+127            </intent-filter>
+128        </activity>
+129
+130        <receiver android:name="com.android.exchange.ExchangeBroadcastReceiver" >
+130-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:147:9-151:20
+130-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:147:19-59
+131            <intent-filter>
+131-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:148:13-150:29
+132                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED" />
+132-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:149:17-82
+132-->G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:149:25-79
+133            </intent-filter>
+134        </receiver>
+135    </application>
+136
+137</manifest>

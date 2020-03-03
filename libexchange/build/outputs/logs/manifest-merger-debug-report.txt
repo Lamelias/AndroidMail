@@ -1,0 +1,219 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:17:1-154:12
+INJECTED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:17:1-154:12
+INJECTED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:17:1-154:12
+INJECTED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:17:1-154:12
+INJECTED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:17:1-154:12
+	package
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:19:5-35
+		INJECTED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml
+		INJECTED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:18:5-63
+	android:versionCode
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:20:5-33
+		INJECTED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml
+		INJECTED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:22:5-23:67
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:23:9-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:24:5-25:65
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:25:9-63
+uses-permission#android.permission.INTERNET
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:26:5-27:53
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:27:9-51
+uses-permission#android.permission.VIBRATE
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:28:5-29:52
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:29:9-50
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:30:5-31:68
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:31:9-65
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:32:5-33:58
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:33:9-55
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:34:5-35:61
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:35:9-58
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:36:5-37:67
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:37:9-64
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:38:5-39:64
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:39:9-61
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:40:5-41:65
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:41:9-62
+uses-permission#android.permission.READ_CONTACTS
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:43:5-44:58
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:44:9-56
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:45:5-46:59
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:46:9-57
+uses-permission#android.permission.READ_CALENDAR
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:47:5-48:58
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:48:9-56
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:49:5-50:59
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:50:9-57
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:51:5-52:60
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:52:9-58
+uses-permission#android.permission.WAKE_LOCK
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:55:5-56:54
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:56:9-52
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:57:5-58:61
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:58:9-59
+uses-permission#com.android.email.permission.READ_ATTACHMENT
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:60:5-61:70
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:61:9-68
+uses-permission#com.android.email.permission.ACCESS_PROVIDER
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:62:5-63:70
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:63:9-68
+application
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:67:5-153:19
+	android:requiredAccountType
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:71:9-59
+	android:label
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:69:9-41
+	android:icon
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:68:9-36
+	android:theme
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:72:9-56
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:70:9-32
+service#com.android.exchange.service.EasService
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:75:9-83:19
+	android:exported
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:77:17-40
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:76:17-71
+intent-filter#action:name:com.android.email.EXCHANGE_INTENT
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:78:13-81:29
+action#com.android.email.EXCHANGE_INTENT
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:79:17-80:76
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:80:25-73
+service#com.android.exchange.service.EmailSyncAdapterService
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:86:9-95:19
+	android:exported
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:88:13-36
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:87:13-80
+intent-filter#action:name:android.content.SyncAdapter
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:89:13-92:29
+action#android.content.SyncAdapter
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:90:17-91:66
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:91:21-63
+meta-data#android.content.SyncAdapter
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:93:13-94:68
+	android:resource
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:94:24-65
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:93:24-66
+service#com.android.exchange.service.ContactsSyncAdapterService
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:98:9-107:19
+	android:exported
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:100:13-36
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:99:13-83
+service#com.android.exchange.service.CalendarSyncAdapterService
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:110:9-119:19
+	android:exported
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:112:13-36
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:111:13-83
+provider#com.android.exchange.provider.ExchangeDirectoryProvider
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:121:9-131:20
+	android:readPermission
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:124:13-70
+	android:authorities
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:123:13-74
+	android:multiprocess
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:125:13-41
+	android:exported
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:126:13-36
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:122:13-83
+meta-data#android.content.ContactDirectory
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:128:11-130:37
+	android:value
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:130:15-35
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:129:15-62
+activity#com.android.exchange.EasCertificateRequestor
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:133:9-139:20
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:133:19-58
+intent-filter#action:name:com.android.email.EXCHANGE_REQUEST_CERT+category:name:android.intent.category.DEFAULT+data:path:/certrequest+data:scheme:eas
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:134:13-138:29
+action#com.android.email.EXCHANGE_REQUEST_CERT
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:135:17-82
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:135:25-79
+data
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:136:17-74
+	android:path
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:136:44-71
+	android:scheme
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:136:23-43
+category#android.intent.category.DEFAULT
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:137:17-76
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:137:27-73
+activity#com.android.exchange.SettingsRedirector
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:140:9-145:20
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:140:19-53
+intent-filter#action:name:android.intent.action.MANAGE_NETWORK_USAGE+category:name:android.intent.category.DEFAULT
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:141:13-144:29
+action#android.intent.action.MANAGE_NETWORK_USAGE
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:142:17-85
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:142:25-82
+receiver#com.android.exchange.ExchangeBroadcastReceiver
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:147:9-151:20
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:147:19-59
+intent-filter#action:name:android.accounts.LOGIN_ACCOUNTS_CHANGED
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:148:13-150:29
+action#android.accounts.LOGIN_ACCOUNTS_CHANGED
+ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:149:17-82
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml:149:25-79
+uses-sdk
+INJECTED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml
+INJECTED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml
+INJECTED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml
+INJECTED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml
+		INJECTED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml
+		ADDED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml
+		INJECTED from G:\App\Android\workspace\exchange\libexchange\src\main\AndroidManifest.xml

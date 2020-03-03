@@ -1,0 +1,355 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.mail.emailtests" >
+4
+5    <uses-sdk
+5-->G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4491704539926822229.xml:5:5-74
+6        android:minSdkVersion="14"
+6-->G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4491704539926822229.xml:5:15-41
+7        android:targetSdkVersion="24" />
+7-->G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4491704539926822229.xml:5:42-71
+8
+9    <instrumentation
+9-->G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4491704539926822229.xml:11:5-15:77
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4491704539926822229.xml:11:22-76
+11        android:functionalTest="false"
+11-->G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4491704539926822229.xml:14:22-52
+12        android:handleProfiling="false"
+12-->G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4491704539926822229.xml:13:22-53
+13        android:label="Tests for com.android.mail.emailtests"
+13-->G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4491704539926822229.xml:15:22-75
+14        android:targetPackage="com.android.mail.emailtests" />
+14-->G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4491704539926822229.xml:12:22-73
+15    <!-- Allows mail to access the user's contacts, for email address auto-completion -->
+16    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- Allows access to EmailProvider (EAS/IMAP/POP3) -->
+16-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-72
+16-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:22-69
+17    <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER" />
+17-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-84
+17-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:22-81
+18    <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT" />
+18-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:5-84
+18-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:22-81
+19    <uses-permission android:name="android.permission.NFC" />
+19-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-62
+19-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:22-59
+20
+21    <application
+21-->G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4491704539926822229.xml:7:5-9:19
+22        android:debuggable="true"
+22-->G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4491704539926822229.xml:7:18-43
+23        android:icon="@mipmap/ic_launcher_mail"
+23-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-48
+24        android:label="@string/app_name"
+24-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-41
+25        android:supportsRtl="false"
+25-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-36
+26        android:theme="@style/UnifiedEmailTheme" >
+26-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:9-49
+27        <uses-library android:name="android.test.runner" />
+27-->G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4491704539926822229.xml:8:9-60
+27-->G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4491704539926822229.xml:8:23-57
+28        <!-- Enable search in all activities -->
+29        <meta-data
+29-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:9-42:48
+30            android:name="android.app.default_searchable"
+30-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-58
+31            android:value=".ui.MailActivity" /> <!-- TODO: add a permission on this -->
+31-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-45
+32        <activity
+32-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:9-68:20
+33            android:name="com.android.mail.ui.MailActivity"
+33-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-60
+34            android:label="@string/app_name"
+34-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-45
+35            android:launchMode="singleTop"
+35-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-43
+36            android:theme="@style/MailActivityTheme"
+36-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-53
+37            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+37-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-70
+38            <intent-filter>
+38-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-54:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:17-69
+39-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:17-77
+41-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:27-74
+42            </intent-filter>
+43            <intent-filter>
+43-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-62:29
+44                <action android:name="android.intent.action.VIEW" />
+44-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:17-69
+44-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:25-66
+45
+46                <category android:name="android.intent.category.DEFAULT" />
+46-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:17-76
+46-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:27-73
+47
+48                <data android:scheme="content" />
+48-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:17-50
+48-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:23-47
+49                <data android:mimeType="application/mail-ls" />
+49-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:17-50
+50            </intent-filter>
+51            <intent-filter>
+51-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-67:29
+52                <action android:name="android.intent.action.SEARCH" />
+52-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:17-71
+52-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:25-68
+53
+54                <category android:name="android.intent.category.DEFAULT" />
+54-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:17-76
+54-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:27-73
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:9-102:20
+58            android:name="com.android.mail.compose.ComposeActivity"
+58-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:13-68
+59            android:theme="@style/ComposeTheme" >
+59-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:13-48
+60            <intent-filter>
+60-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:13-80:29
+61                <action android:name="android.intent.action.VIEW" />
+61-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:17-69
+61-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:25-66
+62                <action android:name="android.intent.action.SENDTO" />
+62-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:17-71
+62-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:25-68
+63
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:17-76
+64-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:27-73
+65                <category android:name="android.intent.category.BROWSABLE" />
+65-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:17-78
+65-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:27-75
+66
+67                <data android:scheme="mailto" />
+67-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:17-50
+67-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:23-47
+68            </intent-filter>
+69            <intent-filter>
+69-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:13-87:29
+70                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+70-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:17-77
+70-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:25-74
+71
+72                <category android:name="android.intent.category.DEFAULT" />
+72-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:17-76
+72-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:27-73
+73
+74                <data android:scheme="mailto" />
+74-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:17-50
+74-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:23-47
+75            </intent-filter>
+76            <intent-filter android:label="@string/compose" >
+76-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:88:13-94:29
+76-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:88:28-59
+77                <action android:name="android.intent.action.SEND" />
+77-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:89:17-69
+77-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:89:25-66
+78
+79                <category android:name="android.intent.category.DEFAULT" />
+79-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:17-76
+79-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:27-73
+80
+81                <data android:mimeType="*/*" />
+81-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:17-50
+82            </intent-filter>
+83            <intent-filter android:label="@string/compose" >
+83-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:95:13-101:29
+83-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:95:28-59
+84                <action android:name="android.intent.action.SEND_MULTIPLE" />
+84-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:96:17-78
+84-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:96:25-75
+85
+86                <category android:name="android.intent.category.DEFAULT" />
+86-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:17-76
+86-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:27-73
+87
+88                <data android:mimeType="*/*" />
+88-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:17-50
+89            </intent-filter>
+90        </activity>
+91        <activity
+91-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:103:9-106:58
+92            android:name="com.android.mail.ui.CreateShortcutActivity"
+92-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:104:13-70
+93            android:label="@string/activity_folder_selection"
+93-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:105:13-62
+94            android:theme="@style/ShortcutWidgetTheme" />
+94-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:106:13-55
+95        <activity
+95-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:107:9-110:58
+96            android:name="com.android.mail.ui.FolderSelectionActivity"
+96-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:108:13-71
+97            android:label="@string/activity_folder_selection"
+97-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:109:13-62
+98            android:theme="@style/ShortcutWidgetTheme" />
+98-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:110:13-55
+99        <activity
+99-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:111:9-118:20
+100            android:name="com.android.mail.ui.MailboxSelectionActivity"
+100-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:112:13-72
+101            android:label="@string/app_name"
+101-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:113:13-45
+102            android:theme="@style/InvisibleShortcutWidgetTheme" >
+102-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:114:13-64
+103            <intent-filter>
+103-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:115:13-117:29
+104                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+104-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:116:17-87
+104-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:116:25-84
+105            </intent-filter>
+106        </activity>
+107        <activity
+107-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:119:9-123:20
+108            android:name="com.android.mail.photo.MailPhotoViewActivity"
+108-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:120:13-72
+109            android:label="@string/app_name"
+109-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:121:13-45
+110            android:theme="@style/MailPhotoViewTheme" >
+110-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:122:13-54
+111        </activity>
+112        <activity
+112-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:124:9-136:20
+113            android:name="com.android.mail.browse.EmlViewerActivity"
+113-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:125:13-69
+114            android:label="@string/app_name"
+114-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:126:13-45
+115            android:theme="@style/UnifiedEmailTheme" >
+115-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:127:13-53
+116            <intent-filter>
+116-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:128:13-135:29
+117                <action android:name="android.intent.action.VIEW" />
+117-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:17-69
+117-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:25-66
+118
+119                <category android:name="android.intent.category.DEFAULT" />
+119-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:17-76
+119-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:27-73
+120
+121                <data android:mimeType="message/rfc822" />
+121-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:17-50
+122                <data android:mimeType="application/eml" />
+122-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:17-50
+123            </intent-filter>
+124        </activity>
+125        <activity
+125-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:137:9-141:20
+126            android:name="com.android.mail.ui.settings.MailPreferenceActivity"
+126-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:138:13-79
+127            android:exported="false"
+127-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:139:13-37
+128            android:label="@string/activity_preferences" >
+128-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:140:13-57
+129        </activity>
+130
+131        <provider
+131-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:143:9-149:20
+132            android:name="com.android.mail.providers.UnifiedAccountCacheProvider"
+132-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:144:13-82
+133            android:authorities="com.android.mail.accountcache"
+133-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:145:13-64
+134            android:label="@string/account_cache_provider"
+134-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:146:13-59
+135            android:multiprocess="false" >
+135-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:147:13-41
+136            <grant-uri-permission android:pathPattern=".*" />
+136-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:148:13-62
+136-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:148:35-59
+137        </provider>
+138        <provider
+138-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:150:9-156:20
+139            android:name="com.android.mail.providers.protos.mock.MockUiProvider"
+139-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:151:13-81
+140            android:authorities="com.android.mail.mockprovider"
+140-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:152:13-64
+141            android:label="@string/mock_content_provider"
+141-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:153:13-58
+142            android:multiprocess="false" >
+142-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:154:13-41
+143            <grant-uri-permission android:pathPattern=".*" />
+143-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:148:13-62
+143-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:148:35-59
+144        </provider>
+145        <provider
+145-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:157:9-163:20
+146            android:name="com.android.mail.browse.UnifiedConversationProvider"
+146-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:158:13-79
+147            android:authorities="com.android.mail.conversation.provider"
+147-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:159:13-73
+148            android:label="@string/conversation_content_provider"
+148-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:160:13-66
+149            android:multiprocess="false" >
+149-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:161:13-41
+150            <grant-uri-permission android:pathPattern=".*" />
+150-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:148:13-62
+150-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:148:35-59
+151        </provider>
+152        <provider
+152-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:164:9-170:20
+153            android:name="com.android.mail.providers.EmlAttachmentProvider"
+153-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:165:13-76
+154            android:authorities="@string/eml_attachment_provider"
+154-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:166:13-66
+155            android:exported="false"
+155-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:167:13-37
+156            android:multiprocess="false" >
+156-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:168:13-41
+157            <grant-uri-permission android:pathPattern=".*" />
+157-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:148:13-62
+157-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:148:35-59
+158        </provider>
+159
+160        <service android:name="com.android.mail.compose.EmptyService" /> <!-- Widget -->
+160-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:172:9-73
+160-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:172:18-70
+161        <receiver
+161-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:175:9-188:20
+162            android:name="com.android.mail.widget.WidgetProvider"
+162-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:176:13-66
+163            android:label="@string/app_name" >
+163-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:177:13-45
+164            <intent-filter>
+164-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:178:13-180:29
+165                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+165-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:179:17-84
+165-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:179:25-81
+166            </intent-filter>
+167            <intent-filter>
+167-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:181:13-183:29
+168                <action android:name="com.android.mail.ACTION_NOTIFY_DATASET_CHANGED" />
+168-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:182:17-89
+168-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:182:25-86
+169            </intent-filter>
+170
+171            <meta-data
+171-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:185:13-187:55
+172                android:name="android.appwidget.provider"
+172-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:186:17-58
+173                android:resource="@xml/widget_info" />
+173-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:187:17-52
+174        </receiver>
+175
+176        <service
+176-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:190:9-193:72
+177            android:name="com.android.mail.widget.WidgetService"
+177-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:191:13-65
+178            android:exported="false"
+178-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:192:13-37
+179            android:permission="android.permission.BIND_REMOTEVIEWS" />
+179-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:193:13-69
+180        <service android:name="com.android.mail.MailLogService" />
+180-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:194:9-67
+180-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:194:18-64
+181        <service android:name="com.android.mail.browse.EmlTempFileDeletionService" />
+181-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:195:9-86
+181-->[__tested_artifact__::unifiedEmail] G:\App\Android\workspace\exchange\unifiedEmail\build\intermediates\library_manifest\debug\AndroidManifest.xml:195:18-83
+182    </application>
+183
+184</manifest>

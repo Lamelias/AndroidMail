@@ -1,0 +1,5 @@
+include ':app', ':libcommon'
+rootProject.name='exchange'
+include ':libexchange'
+include ':emailcommon'
+include ':unifiedEmail'

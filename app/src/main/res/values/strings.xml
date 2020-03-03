@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">exchange</string>
+    <string name="action_auto_discover">AutoDiscover</string>
+    <string name="action_folder_sync">FolderSync</string>
+    <string name="action_sync">Sync</string>
+    <string name="action_ping">Ping</string>
+</resources>

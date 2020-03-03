@@ -1,0 +1,295 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:17:1-179:12
+INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:17:1-179:12
+INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:17:1-179:12
+INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:17:1-179:12
+INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:17:1-179:12
+INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:17:1-179:12
+INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:17:1-179:12
+	package
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:18:5-31
+		INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml
+		INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:20:5-30
+		INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml
+		INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:17:11-69
+	android:versionCode
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:19:5-28
+		INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml
+		INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_CONTACTS
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:23:22-69
+uses-permission#com.android.email.permission.ACCESS_PROVIDER
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:25:5-83
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:25:22-81
+uses-permission#com.android.email.permission.READ_ATTACHMENT
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:26:5-83
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:26:22-81
+uses-permission#android.permission.NFC
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:27:5-62
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:27:22-59
+application
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:29:5-177:19
+	android:supportsRtl
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:33:9-36
+	android:label
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:31:9-41
+	android:icon
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:30:9-48
+	android:theme
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:32:9-49
+meta-data#android.app.default_searchable
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:35:9-36:48
+	android:value
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:36:13-45
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:35:20-65
+activity#com.android.mail.ui.MailActivity
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:38:9-58:20
+	android:label
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:39:13-45
+	android:launchMode
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:41:13-43
+	android:windowSoftInputMode
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:43:13-70
+	android:theme
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:42:13-53
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:40:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:44:13-47:29
+action#android.intent.action.MAIN
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:45:17-69
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:46:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/mail-ls+data:scheme:content
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:48:13-53:29
+action#android.intent.action.VIEW
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:49:17-69
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:49:25-66
+category#android.intent.category.DEFAULT
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:50:17-76
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:50:27-73
+data
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:51:17-49
+	android:scheme
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:51:23-47
+	android:mimeType
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:52:23-61
+intent-filter#action:name:android.intent.action.SEARCH+category:name:android.intent.category.DEFAULT
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:54:13-57:29
+action#android.intent.action.SEARCH
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:55:17-71
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:55:25-68
+activity#com.android.mail.compose.ComposeActivity
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:59:9-86:20
+	android:theme
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:60:13-48
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:59:19-58
+intent-filter#action:name:android.intent.action.SENDTO+action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:mailto
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:61:13-67:29
+action#android.intent.action.SENDTO
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:63:17-71
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:63:25-68
+category#android.intent.category.BROWSABLE
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:65:17-78
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:65:27-75
+intent-filter#action:name:android.nfc.action.NDEF_DISCOVERED+category:name:android.intent.category.DEFAULT+data:scheme:mailto
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:69:13-73:28
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:70:17-77
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:70:25-74
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:75:13-79:29
+	android:label
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:75:28-59
+action#android.intent.action.SEND
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:76:17-69
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:76:25-66
+intent-filter#action:name:android.intent.action.SEND_MULTIPLE+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:81:13-85:29
+	android:label
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:81:28-59
+action#android.intent.action.SEND_MULTIPLE
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:82:17-78
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:82:25-75
+activity#com.android.mail.ui.CreateShortcutActivity
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:88:9-90:65
+	android:label
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:90:13-62
+	android:theme
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:89:13-55
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:88:19-60
+activity#com.android.mail.ui.FolderSelectionActivity
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:92:9-94:65
+	android:label
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:94:13-62
+	android:theme
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:93:13-55
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:92:19-61
+activity#com.android.mail.ui.MailboxSelectionActivity
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:96:9-102:20
+	android:label
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:98:13-45
+	android:theme
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:97:13-64
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:96:19-62
+intent-filter#action:name:android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:99:13-101:29
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:100:17-87
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:100:25-84
+activity#com.android.mail.photo.MailPhotoViewActivity
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:104:9-108:20
+	android:label
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:106:13-45
+	android:theme
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:107:13-54
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:105:13-56
+activity#com.android.mail.browse.EmlViewerActivity
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:109:9-119:20
+	android:label
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:111:17-49
+	android:theme
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:112:17-57
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:110:17-57
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/eml+data:mimeType:message/rfc822
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:113:13-118:29
+activity#com.android.mail.ui.settings.MailPreferenceActivity
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:121:9-124:20
+	android:label
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:122:19-63
+	android:exported
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:123:19-43
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:121:19-69
+provider#com.android.mail.providers.UnifiedAccountCacheProvider
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:126:9-132:20
+	android:authorities
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:127:17-68
+	android:label
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:128:17-63
+	android:multiprocess
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:129:17-45
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:130:17-70
+grant-uri-permission
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:131:13-62
+	android:pathPattern
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:131:35-59
+provider#com.android.mail.providers.protos.mock.MockUiProvider
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:134:9-140:20
+	android:authorities
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:135:13-64
+	android:label
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:136:13-58
+	android:multiprocess
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:137:13-41
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:138:13-65
+provider#com.android.mail.browse.UnifiedConversationProvider
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:142:9-148:20
+	android:authorities
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:143:13-73
+	android:label
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:144:13-66
+	android:multiprocess
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:145:13-41
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:146:13-63
+provider#com.android.mail.providers.EmlAttachmentProvider
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:150:9-156:20
+	android:authorities
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:151:17-70
+	android:multiprocess
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:152:17-45
+	android:exported
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:153:17-41
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:154:17-80
+service#com.android.mail.compose.EmptyService
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:158:9-56
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:158:18-54
+receiver#com.android.mail.widget.WidgetProvider
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:161:9-170:20
+	android:label
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:161:57-89
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:161:19-56
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:162:13-164:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:163:17-84
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:163:25-81
+intent-filter#action:name:com.android.mail.ACTION_NOTIFY_DATASET_CHANGED
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:165:13-167:29
+action#com.android.mail.ACTION_NOTIFY_DATASET_CHANGED
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:166:17-89
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:166:25-86
+meta-data#android.appwidget.provider
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:168:13-169:62
+	android:resource
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:169:24-59
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:168:24-65
+service#com.android.mail.widget.WidgetService
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:171:9-173:45
+	android:exported
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:173:18-42
+	android:permission
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:172:18-74
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:171:18-54
+service#com.android.mail.MailLogService
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:174:9-50
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:174:18-48
+service#com.android.mail.browse.EmlTempFileDeletionService
+ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:175:9-70
+	android:name
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml:175:18-67
+uses-sdk
+INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml
+INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml
+INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml
+INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml
+		INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml
+		ADDED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml
+		INJECTED from G:\App\Android\workspace\exchange\unifiedEmail\src\main\AndroidManifest.xml

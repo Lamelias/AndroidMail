@@ -1,0 +1,69 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\UnifiedEmail.iml
+* .idea\encodings.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* Android.mk
+* CleanSpec.mk
+* OWNERS
+* proguard-test.flags
+* proguard.flags
+* tests\
+* tests\Android.mk
+* unified_src\
+* unified_src\README
+* unified_src\com\
+* unified_src\com\android\
+* unified_src\com\android\mail\
+* unified_src\com\android\mail\browse\
+* unified_src\com\android\mail\browse\UnifiedConversationProvider.java
+* unified_src\com\android\mail\providers\
+* unified_src\com\android\mail\providers\UnifiedAccountCacheProvider.java
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => unifiedEmail\src\main\AndroidManifest.xml
+* assets\ => unifiedEmail\src\main\assets\
+* res\ => unifiedEmail\src\main\res\
+* src\ => unifiedEmail\src\main\java\
+* src\com\android\mail\preferences\README => unifiedEmail\src\main\resources\com\android\mail\preferences\README
+* src\com\android\mail\providers\protos\imap\README => unifiedEmail\src\main\resources\com\android\mail\providers\protos\imap\README
+* src\com\android\mail\providers\protos\pop\README => unifiedEmail\src\main\resources\com\android\mail\providers\protos\pop\README
+* src\org\apache\commons\io\comparator\package.html => unifiedEmail\src\main\resources\org\apache\commons\io\comparator\package.html
+* src\org\apache\commons\io\filefilter\package.html => unifiedEmail\src\main\resources\org\apache\commons\io\filefilter\package.html
+* src\org\apache\commons\io\input\package.html => unifiedEmail\src\main\resources\org\apache\commons\io\input\package.html
+* src\org\apache\commons\io\output\package.html => unifiedEmail\src\main\resources\org\apache\commons\io\output\package.html
+* src\org\apache\commons\io\overview.html => unifiedEmail\src\main\resources\org\apache\commons\io\overview.html
+* src\org\apache\commons\io\package.html => unifiedEmail\src\main\resources\org\apache\commons\io\package.html
+* src\org\apache\commons\io\ThirdPartyProject.prop => unifiedEmail\src\main\resources\org\apache\commons\io\ThirdPartyProject.prop
+* src\org\apache\james\mime4j\field\address\parser\AddressListParser.jj => unifiedEmail\src\main\resources\org\apache\james\mime4j\field\address\parser\AddressListParser.jj
+* src\org\apache\james\mime4j\ThirdPartyProject.prop => unifiedEmail\src\main\resources\org\apache\james\mime4j\ThirdPartyProject.prop
+* tests\src\ => unifiedEmail\src\androidTest\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
